@@ -37,6 +37,21 @@
   border-radius: 12px;
 }
 
+.expense-item__button {
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+  border: 1px solid;
+  font-weight: bold;
+}
+.expense-item__button:hover {
+  background-color: #4b4b4b;
+  color: #f7f7f7;
+}
+
 @media (min-width: 580px) {
   .expense-item__description {
     flex-direction: row;
